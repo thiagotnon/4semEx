@@ -1,0 +1,17 @@
+.titleContainer {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--color-middle-grey);
+}
+
+.titleContainer .titleContainerContent {
+  width: 90vw;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.titleContainerContent h1 {
+  color: var(--color-light-grey);
+}

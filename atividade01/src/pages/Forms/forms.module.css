@@ -1,0 +1,64 @@
+.sexo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.sexo label,
+.sexo input {
+  width: 50px;
+  border-radius: 2rem;
+}
+
+.sexo input {
+  padding: 1rem 0;
+}
+.sexo input[type=radio] {
+  margin: .5rem .2rem;
+}
+
+
+.formSelect div{
+  background: var(--color-light-grey);
+  border: 0;
+  border-radius: .5rem;
+  font-weight: 400;
+}
+
+.formSelect {
+  margin-bottom: 1rem;
+}
+
+fieldset {
+  border: 1px solid var(--color-light-grey);
+}
+
+
+fieldset input[type=checkbox]{
+  margin: 0 0 0 .3rem !important;
+  width: auto !important;
+}
+fieldset label {
+  padding: 0 !important;
+}
+
+
+.boxText {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 1rem 0;
+}
+
+.boxText label {
+  margin-bottom: .8rem;
+}
+.boxText textarea {
+  width: 100%;
+  border: 1px solid var(--color-light-grey);
+}

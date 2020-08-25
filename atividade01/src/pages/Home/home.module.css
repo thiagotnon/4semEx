@@ -1,0 +1,17 @@
+.imageBox {
+  width: 90vw;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-flow: wrap row;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 2rem 0;
+}
+.imageBox img {
+  width: 100%;
+  max-width: 580px;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
